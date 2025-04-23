@@ -79,7 +79,7 @@ services:
 ```
 - Espere o carregamento, e depois acesse o site em "http://localhost:8080", se tudo deu certo voce deve vizualizar isso no site:
 
-IMAGEM
+![alt text](image.png)
 
 ## Comandos e Configurações
 ### Linux
