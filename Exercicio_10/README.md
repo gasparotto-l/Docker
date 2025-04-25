@@ -112,6 +112,17 @@ curl http://localhost:3000
 - Retorno:
 
 ## Observações
+- A aplicação foi configurada para rodar como um usuário não-root dentro do container,
+o que aumenta a segurança e reduz riscos em caso de falhas ou invasões.
+O Dockerfile cria e define esse usuário corretamente.
+
+- Usei o Node.js com Express como exemplo, mas você pode aplicar esse modelo
+com outras linguagens, como Python ou Go, adaptando os comandos conforme necessário.
+O essencial é evitar o uso do root por padrão.
+
+- A porta 3000 foi exposta para acessar a aplicação, mas você pode alterar esse valor
+se ela já estiver ocupada ou preferir outra configuração.
+Basta modificar o EXPOSE no Dockerfile e o -p no docker run.
 
 ## Agradecimentos
 - Obrigado pela atenção, espero que tenha gostado.

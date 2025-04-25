@@ -111,6 +111,17 @@ docker ps
 ```
 
 ## Observações
+- Utilizei o repositório awesome-compose do GitHub para clonar a aplicação postgresql-pgadmin,
+mas você pode adaptar o processo com outro repositório semelhante, desde que siga a mesma estrutura.
+O importante é garantir que os arquivos necessários estejam corretamente organizados.
+
+- Optei por separar os arquivos em uma pasta específica para manter a organização do projeto,
+mas caso prefira, é possível executar os comandos diretamente na pasta clonada.
+Organizar as pastas ajuda bastante na visualização e manutenção.
+
+- As credenciais usadas no .env são apenas um exemplo e podem ser personalizadas conforme sua preferência.
+O essencial é manter o padrão dos nomes das variáveis, para que o container funcione corretamente.
+Lembre-se de usar senhas seguras, especialmente em ambientes reais.
 
 ## Agradecimentos
 - Obrigado pela atenção, espero que tenha gostado.

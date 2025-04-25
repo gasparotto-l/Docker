@@ -3,7 +3,10 @@
 ## Info
 - Data de Realização: 24/04/2025
 - Autor: Luiz H. Gasparotto
-- Crie um Dockerfile para uma aplicação Flask que retorna uma mensagem ao acessar um endpoint.
+- Após identificar vulnerabilidades com ferramentas como o Trivy, o próximo passo é corrigi-las. Imagens grandes e genéricas frequentemente trazem bibliotecas desnecessárias e vulneráveis, além de usarem o usuário root por padrão. 
+- Neste exercício, você irá trabalhar com um exemplo de Dockerfile com más práticas e aplicar melhorias para construir uma imagem mais segura e enxuta. Identifique as melhorias e gere uma nova versão de Dockerfile.
+
+![alt text](image.png)
 
 ## Requisitos
 - Um computador pessoal e acesso a internet

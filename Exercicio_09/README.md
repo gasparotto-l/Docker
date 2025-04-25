@@ -72,7 +72,17 @@ http://localhost:8080
 - Pagina Web
 
 ## Observações
+-  Clonei o repositório do Material Kit da Creative-Tim via GitHub, mas você pode usar outro
+template estático se preferir, contanto que ele tenha uma estrutura compatível com o Dockerfile.
+O processo de configuração continua o mesmo.
 
+-  Criei uma pasta separada para manter os arquivos organizados, mas é possível fazer tudo
+direto na pasta clonada. Ainda assim, a separação ajuda bastante na manutenção do projeto.
+Recomenda-se usar o VS Code para facilitar a edição do Dockerfile.
+
+-  Usei a porta 8080 para acessar a aplicação no navegador, mas essa porta pode ser alterada
+caso já esteja sendo usada por outro serviço.
+Basta ajustar o mapeamento no comando docker run.
 
 ## Agradecimentos
 - Obrigado pela atenção, espero que tenha gostado.

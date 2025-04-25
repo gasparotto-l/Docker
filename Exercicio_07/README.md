@@ -156,6 +156,10 @@ docker ps
 
 ## Observações
 
+- Fiz o exercício no WSL Ubuntu, mas dá tranquilo pra fazer num Linux puro ou até numa VM. O importante é ter o ambiente certinho configurado. No fim, o resultado vai ser o mesmo.
+- Criei os arquivos do Docker usando o Visual Studio, mas você pode usar outra IDE parecida, tipo o VS Code ou até fazer tudo direto no terminal. Vai do que você se sentir mais confortável.
+- Usei a porta 8080 no localhost, mas isso não é uma regra fixa.
+Você pode escolher outra porta sem problemas. Só lembra de verificar se ela está liberada no sistema.
 
 ## Agradecimentos
 - Obrigado pela atenção, espero que tenha gostado.
