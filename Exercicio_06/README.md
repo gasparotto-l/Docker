@@ -48,7 +48,8 @@
 ```bash
 code .
 ```
-![alt text](DockerfileMultistage.png)
+![image](https://github.com/user-attachments/assets/452959c8-71be-4b9f-932b-51f8b97d4b86)
+
 
 ## Dockerfile-e-Multistage
 - Configure o Dockerfile
@@ -111,7 +112,8 @@ docker build -t docker-gs-ping-normal -f Dockerfile .
 ```bash
 docker images | grep docker-gs-ping
 ```
-![alt text](imagenscomparadas.png)
+![image](https://github.com/user-attachments/assets/c745ecc4-103e-4a3f-b7af-8abe4e8adf44)
+
 
 - Visivel que as imagens apresentam tamanhos diferentes.
 
@@ -131,7 +133,8 @@ curl http://localhost:8080 && echo #Multistage
 curl http://localhost:8081 && echo #Normal
 ```
 - Resultado esperado:
-![alt text](curl808081.png)
+![image](https://github.com/user-attachments/assets/bbfba272-619a-47b9-971c-9cfccf4bcd82)
+
 
 - Por ultimo acesse ambos os urls abaixo no seu navegador e confira se o resultado é equivalente aos mostrados.
 ```bash
@@ -140,10 +143,12 @@ http://localhost:8081
 ```
 - 8080:
 
-![alt text](8080.png)
+![image](https://github.com/user-attachments/assets/60f631fb-d788-4946-b268-7521129de8a6)
+
 - 8081:
 
-![alt text](8081.png)
+![image](https://github.com/user-attachments/assets/fa536cf3-e8e8-4f95-bf75-8f0540e39230)
+
 
 ## Observações
 -
