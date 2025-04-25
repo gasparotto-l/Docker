@@ -211,6 +211,7 @@ echo $(( $(wc -l < relatorio2.md) - 2 ))
 
 
 ## Agradecimentos
-
+Obrigado pela atenção, espero que tenha gostado.
+Caso encontre erros a serem corrigidos, me informe e estou totalmente disponivel para editar.
 
 
