@@ -56,7 +56,8 @@ trivy --version
 trivy image python:3.9
 ```
 - Retorno:
-IMAGEM 
+![image](https://github.com/user-attachments/assets/567d5d9f-3709-4cf9-a647-a242719beb96)
+
 
 ## Vulnerabilidades-Critical-High
 
@@ -64,6 +65,9 @@ IMAGEM
 ```bash
 trivy image --severity HIGH,CRITICAL python:3.9
 ```
+- Retorno:
+![image](https://github.com/user-attachments/assets/f55cdf9d-ab49-415b-881d-58827c1f2020)
+
 
 ## Anotar-Vulnerabilidades
 - Fiz de forma automatizada pra não termos que ficar lendos e anotando cada erro.
@@ -103,7 +107,8 @@ cat relatorio.md | column -t -s '|'
 ```
 
 - Retorno:
-IMAGEM
+![image](https://github.com/user-attachments/assets/8df0c191-ae7c-4881-af37-27836188063b)
+
 
 ## Observações
 - A instalação do Trivy foi feita seguindo as instruções oficiais, garantindo maior confiabilidade
