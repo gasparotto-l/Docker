@@ -60,7 +60,8 @@ code . #Dentro da pasta do flask
 ```
 - Com a pagina aberto no vs e agora configure o dockerfile.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/3360301d-10b4-4c37-a1e1-fcc3e0ad2124)
+
 
 ## Subindo-Container
 
@@ -74,7 +75,8 @@ docker run -d -p 8000:8000 --name flask-app-container flask-app-image
 ```
 
 - Demonstração no Terminal:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/d9c34a9d-de69-48d7-b6b6-338322616a20)
+
 
 ## Testes
 
@@ -83,14 +85,16 @@ docker run -d -p 8000:8000 --name flask-app-container flask-app-image
 http://localhost:8000
 ```
 - Oque deve aparecer:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/951ca321-aae1-49be-8836-c96a0096b813)
+
 
 - Comprove também se funcionou utilizando curl no terminal para fazer um chamado da sua pagina web:
 ```bash
 curl http://localhost:8000 && echo
 ```
 - Oque deve aparecer:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/6c6a688f-3531-4dca-9150-b440f0d50c64)
+
 
 ## Observações
 - Altere o aplicação da maneira que mais o agrade, mas não se esqueça de respeitar coisas como, a ordem no dockerfile, ou as portas utilizadas para acesso na web, isso pode ser a diferença entre encontrar erros ou não praticando.
