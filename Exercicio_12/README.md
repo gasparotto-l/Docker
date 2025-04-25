@@ -6,7 +6,8 @@
 - Após identificar vulnerabilidades com ferramentas como o Trivy, o próximo passo é corrigi-las. Imagens grandes e genéricas frequentemente trazem bibliotecas desnecessárias e vulneráveis, além de usarem o usuário root por padrão. 
 - Neste exercício, você irá trabalhar com um exemplo de Dockerfile com más práticas e aplicar melhorias para construir uma imagem mais segura e enxuta. Identifique as melhorias e gere uma nova versão de Dockerfile.
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/6000746d-d878-4158-8560-9b4eba46aa64)
+
 
 ## Requisitos
 - Um computador pessoal e acesso a internet
@@ -16,3 +17,10 @@
 
 ## Menu de Navegação do projeto
 - | [Info](#info) | [requisitos](#requisitos) |
+- | [](#) |
+- | [](#) |
+- | [](#) |
+- | [Observações](#agradecimentos) |
+- | [Agradecimentos](#agradecimentos) |
+
+## sla
