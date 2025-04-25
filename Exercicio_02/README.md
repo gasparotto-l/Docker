@@ -53,7 +53,8 @@ echo "Memória livre: $(free -h | grep Mem | awk '{print $4}')"
 echo "Processos em execução: $(ps aux | wc -l)"
 ```
 - Desse modo teremos a saida do script assim:
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/490a1177-d539-4a41-bfb7-0e8ba8aaa621)
+
 
 ## Explicação do Script
 - Agora veja toda explicação do script:
