@@ -12,19 +12,20 @@
 ## Súmario do Projeto
 ### Práticas Faceis:
 - [Exercicio_01](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_01)
-- [Exercicio_02]()
-- [Exercicio_03]()
-- [Exercicio_04]()
+- [Exercicio_02](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_02)
+- [Exercicio_03](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_03)
+- [Exercicio_04](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_04)
 ### Práticas Medias:
-- [Exercicio_05]()
-- [Exercicio_06]()
-- [Exercicio_07]()
-- [Exercicio_08]()
+- [Exercicio_05](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_05)
+- [Exercicio_06](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_06)
+- [Exercicio_07](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_07)
+- [Exercicio_08](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_08)
 ### Práticas Dificeis:
-- [Exercicio_09]()
-- [Exercicio_10]()
-- [Exercicio_11]()
-- [Exercicio_12]()
+- [Exercicio_09](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_09)
+- [Exercicio_10](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_10)
+- [Exercicio_11](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_11)
+- [Exercicio_12](https://github.com/gasparotto-l/Docker/tree/main/Exercicio_12)
+
 
 ## Agradecimentos
 - Agradeço profundamente que possa prestigiar meu projeto dando um pouco da sua atenção, é muito importante pra mim.
