@@ -49,8 +49,6 @@
 ```
 - Com vscode aberto, crie dois arquivos, um "Dockerfile" e um "docker-compose.yml". Vamos utilizar esses arquivos para realizar a conteirnização.
 
-- IMAGEM
-
 #### Dockerfile & Docker Compose
 - Acesse o seu arquivo Dockerfile e configure da seguinte maneira, para que o site esteja disponivel apos a criação do conteiner.
 ```bash
@@ -79,7 +77,8 @@ services:
 ```
 - Espere o carregamento, e depois acesse o site em "http://localhost:8080", se tudo deu certo voce deve vizualizar isso no site:
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/e944bddc-40b7-48bf-9730-b48e6ca2d248)
+
 
 ## Comandos e Configurações
 ### Linux
