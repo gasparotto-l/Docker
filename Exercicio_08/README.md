@@ -82,28 +82,34 @@ docker compose up -d
 ```bash
 docker exec -t postgres psql -U luizh -d postgres
 ```
-![alt text](bdpeloterminal.png)
+![image](https://github.com/user-attachments/assets/0581e7d8-cd84-4f10-9e98-34edaa3b7c25)
+
 
 ## Acesso-pela-Web
 - Acesse o http://localhost:5050
 - Com suas credenciais configuradas no .env agora basta fazer login no pgAdmin.
 
-![alt text](loginNopgAdmin.png)
+![image](https://github.com/user-attachments/assets/cfbf555f-69cd-4b43-8362-3a6a6c11d0e1)
+
 - Clique em "Add New Server" 
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/6be66ec3-dd9c-416c-83ec-976e93dfa2df)
+
 
 - Selecione um Nome para esse Server
 
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/a7bf8164-0292-4bb0-9ccf-551189048fa8)
+
 
 - Agora vá para a opção de Connection e adicione os detalhes do seu arquivo .env
 
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/747f5e30-ba8e-4d93-9594-2cfb1e6c9860)
+
 
 - Clique em "Save" e agora temos um database no pgAdmin
 
-![alt text](image4.png)
+![image](https://github.com/user-attachments/assets/4e995e4c-7db0-424e-9bd1-59ee13c4880c)
+
 
 - Confira seu container
 ```bash
