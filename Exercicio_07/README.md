@@ -147,12 +147,14 @@ docker ps
     ```
 - Resultado desses testes:
 
-    ![alt text](testesping.png)
+    ![image](https://github.com/user-attachments/assets/0f8d6f6f-50e9-4dae-b81d-83b85d785026)
+
 
 ## Acessando-Web
 - Acesse a pagina em https://localhost:3000 e se tudo deu certo será capaz de observar a pagina web.
 
-![alt text](MongodbWeb.png)
+![image](https://github.com/user-attachments/assets/b9124781-a65a-49c7-bc4e-809e7e91e012)
+
 
 ## Observações
 
