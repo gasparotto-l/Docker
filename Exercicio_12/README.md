@@ -208,7 +208,9 @@ echo $(( $(wc -l < relatorio2.md) - 2 ))
 
 
 ## Observações
+- imagem original utilizava python:3.9, uma base ampla e antiga, com diversos pacotes desnecessários e vulneráveis, além de rodar como root, aumentando os riscos de segurança. A nova imagem utiliza python:3.9.18-slim, com dependências atualizadas e instalação controlada via --no-cache-dir. Também adicionamos um usuário não-root (appuser), que é uma boa prática de segurança.
 
+- A pós rodar o Trivy nas duas imagens e comparar os relatórios (relatorio1.md vs relatorio2.md), conseguimos reduzir 21 vulnerabilidades de nível alto ou crítico, demonstrando a eficácia das boas práticas aplicadas.
 
 ## Agradecimentos
 Obrigado pela atenção, espero que tenha gostado.
