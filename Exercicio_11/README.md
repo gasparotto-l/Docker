@@ -106,7 +106,17 @@ cat relatorio.md | column -t -s '|'
 IMAGEM
 
 ## Observações
+- A instalação do Trivy foi feita seguindo as instruções oficiais, garantindo maior confiabilidade
+e compatibilidade com atualizações futuras.
+Verifiquei a instalação com trivy --version antes de prosseguir.
 
+- Executei a análise de vulnerabilidades na imagem python:3.9, filtrando apenas os níveis HIGH
+e CRITICAL, o que ajuda a focar nos riscos mais relevantes.
+O comando retornou uma visão clara dos principais pacotes afetados.
+
+- Automatizei o relatório em formato JSON e processei com jq para gerar um arquivo Markdown legível.
+Esse método facilita a leitura dos resultados e a tomada de decisão.
+Certifique-se de ter o jq instalado para evitar erros na etapa final.
 
 ## Agradecimentos
 - Obrigado pela atenção, espero que tenha gostado.
