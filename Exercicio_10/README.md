@@ -103,6 +103,7 @@ docker run -d -p 3000:3000 --name semroot-app semroot
 docker exec semroot-app whoami
 ```
 - Retorno:
+![image](https://github.com/user-attachments/assets/d662b137-021d-4695-8d35-00027a38d8be)
 
 
 - Teste a aplicação com curl no terminal:
@@ -110,6 +111,8 @@ docker exec semroot-app whoami
 curl http://localhost:3000
 ```
 - Retorno:
+![image](https://github.com/user-attachments/assets/c80aa955-acb1-42b7-b2d6-8b5c5ca3d3e9)
+
 
 ## Observações
 - A aplicação foi configurada para rodar como um usuário não-root dentro do container,
