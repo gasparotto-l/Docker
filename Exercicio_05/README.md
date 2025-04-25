@@ -52,7 +52,8 @@ docker-compose up -d
 ```
 - Resultado esperado:
 
-![img](subindocontainerRMsql.png)
+![image](https://github.com/user-attachments/assets/400590c2-e933-4c87-be31-69e797a1ea12)
+
 
 - Confira se os containers foram criados corretamente:
 ```bash
@@ -60,7 +61,8 @@ docker ps
 ```
 - Tudo deu certo voce deve ser capaz de ver as tres camadas da nossa aplicação.
 
-![img](containersps.png)
+![image](https://github.com/user-attachments/assets/83356746-a7df-47e1-ba6a-a6f69ab5ede6)
+
 
 ## Volumes
 - Veja o volume para confirmar que a execução foi bem sucedida
@@ -68,18 +70,21 @@ docker ps
 docker volume ls 
 ```
 - Terminal:
-![alt text](psvolume.png)
+![image](https://github.com/user-attachments/assets/cd4258b6-84e6-4c94-b996-22db83075755)
+
 
 - Também inspecione o volume utilizando o codigo abaixo:
 ```bash
 docker volume inspect react-express-mysql_db-data
 ```
-![alt text](volumeinspecionado.png)
+![image](https://github.com/user-attachments/assets/f744a1b1-0938-4d27-b40d-39508b71b207)
+
 
 ## Testes
 - Acesse http://localhost:3000 para ver o frontend da pagina
 
-![alt text](localhost3000.png)
+![image](https://github.com/user-attachments/assets/34d722a9-232e-447f-8670-51d9b6e50adf)
+
 
 - Utilize o comando abaixo para comprovar o backend:
 ```bash
