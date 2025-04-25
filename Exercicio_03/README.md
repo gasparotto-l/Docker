@@ -29,11 +29,12 @@ docker ps -a #docker ps para listar os containers
 ```
 - Feito isso sera possivel visualizar todos seus conteiners. Observe o resultado exemplo na minha maquina:
 
-[IMG]![alt text](image.png)
+![image](https://github.com/user-attachments/assets/001d6295-74e1-42fc-892b-879b7f3661ce)
 
 - Imagem ampliada:
 
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/e0102ad7-4a35-4dce-b654-a94ef4f37e10)
+
 
 ## Parando-Conteiners
 
@@ -43,24 +44,27 @@ docker ps -a #docker ps para listar os containers
 docker stop <ID_ou_nome_do_container>
 ```
 - Exemplo pratico:
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/d3aa509b-a7a4-4888-aad1-9df6186f6fd7)
+
 
 - Caso precisa iniciar esse container novamente, basta utilizar esse comando:
 ```bash
 docker start <ID_ou_nome_do_container>
 ```
 - Exemplo pratico:
-![alt text](image-3.png)
+![image](https://github.com/user-attachments/assets/9df8d778-138a-4be5-ad43-1c35df230eea)
+
 
 ## Removendo-Containers
 
-- Por ultimo, vamos resolver um container. Para isso é preciso que o conteiner em questão esteja parado, e isso já sabemos fazer!
+- Por ultimo, vamos remover um container. Para isso é preciso que o conteiner em questão esteja parado, e isso já sabemos fazer!
 - Para remover então usaremos o seguinte comando:
 ```bash
 docker rm <ID_ou_nome_do_container> 
 ```
 - Exemplo pratico:
-![alt text](dockerm.png)
+![image](https://github.com/user-attachments/assets/c9c52a02-e902-412f-a7e8-e1e9111a45f6)
+
 - Confira se o container foi removido corretamente usando novamente esse comando:
 ```bash
 docker ps -a
