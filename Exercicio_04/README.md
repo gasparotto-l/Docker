@@ -37,8 +37,8 @@
 ## Flask
 - Crie uma pasta para armazenar o container da aplicação. E acesse ela:
 ```bash
-mkdir exercicio04 
-cd exercicio04/
+mkdir flask-app
+cd flask-app/
 ```
 - Agora vamos passar o flask para essa pasta, e fazer o build do container nela. Isso vai garantir uma boa organização para realização da ativiade.
 ```bash
@@ -48,6 +48,7 @@ cp -r awesome-compose/flask ./
 ```bash
 cd flask/app
 ```
+
 ## Configuração-Dockerfile
 - Agora na pasta /flask/app vamos excluir e criar um novo dockerfile.
 ```bash
